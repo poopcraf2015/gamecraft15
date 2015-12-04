@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{98EC99D1-3CDF-9A14-A789-5D33F22555FA}</ProjectGuid>
+	<ProjectGuid>{A681F937-18EE-684F-2E5F-6128E3636D38}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -48,7 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\CameraController.cs" />
      <Compile Include="Assets\PlayerController.cs" />
-     <None Include="Assets\GitMerge-for-Unity\Editor\Resources\Licenses.txt" />
+     <None Include="Assets\GitMerge-for-Unity-master\Editor\Resources\Licenses.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

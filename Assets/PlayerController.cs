@@ -8,18 +8,16 @@ public class PlayerController : MonoBehaviour {
 	public CharacterController charController;
 	public float JumpDelay = 0.35f;
 	public float JumpHeight = 4f;
-	//private Rigidbody rb;
 
 	private int horizontal = 0;
 	private bool isJumping = false;
 
 	// Use this for initialization
 	void Start () {
-		//rb = GetComponent<Rigidbody>();
 	}
 
 	// Every frame
-	void Update () {
+	void FixedUpdate () {
 		if (Input.GetAxis ("Horizontal") < 0)
 			horizontal = -1;
 		else if (Input.GetAxis ("Horizontal") > 0)

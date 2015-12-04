@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{0566377A-6357-337C-6BC0-F1C30591D83D}</ProjectGuid>
+	<ProjectGuid>{DCFDE768-20F3-AF1D-21F5-16BBDADE44D0}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,29 +46,29 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\GitMerge-for-Unity\Editor\GameObjectExtensions.cs" />
-     <Compile Include="Assets\GitMerge-for-Unity\Editor\GameObjectMergeActions.cs" />
-     <Compile Include="Assets\GitMerge-for-Unity\Editor\GitMergeWindow.cs" />
-     <Compile Include="Assets\GitMerge-for-Unity\Editor\MergeAction.cs" />
-     <Compile Include="Assets\GitMerge-for-Unity\Editor\MergeActionChangeValues.cs" />
-     <Compile Include="Assets\GitMerge-for-Unity\Editor\MergeActionDeleteComponent.cs" />
-     <Compile Include="Assets\GitMerge-for-Unity\Editor\MergeActionDeleteGameObject.cs" />
-     <Compile Include="Assets\GitMerge-for-Unity\Editor\MergeActionExistence.cs" />
-     <Compile Include="Assets\GitMerge-for-Unity\Editor\MergeActionNewComponent.cs" />
-     <Compile Include="Assets\GitMerge-for-Unity\Editor\MergeActionNewGameObject.cs" />
-     <Compile Include="Assets\GitMerge-for-Unity\Editor\MergeActionParenting.cs" />
-     <Compile Include="Assets\GitMerge-for-Unity\Editor\MergeManager.cs" />
-     <Compile Include="Assets\GitMerge-for-Unity\Editor\MergeManagerPrefab.cs" />
-     <Compile Include="Assets\GitMerge-for-Unity\Editor\MergeManagerScene.cs" />
-     <Compile Include="Assets\GitMerge-for-Unity\Editor\ObjectDictionaries.cs" />
-     <Compile Include="Assets\GitMerge-for-Unity\Editor\ObjectExtensions.cs" />
-     <Compile Include="Assets\GitMerge-for-Unity\Editor\ObjectIDFinder.cs" />
-     <Compile Include="Assets\GitMerge-for-Unity\Editor\Resources.cs" />
-     <Compile Include="Assets\GitMerge-for-Unity\Editor\SerializedPropertyExtensions.cs" />
-     <Compile Include="Assets\GitMerge-for-Unity\Editor\VCS.cs" />
-     <Compile Include="Assets\GitMerge-for-Unity\Editor\VCSException.cs" />
-     <Compile Include="Assets\GitMerge-for-Unity\Editor\VCSGit.cs" />
-     <None Include="Assets\GitMerge-for-Unity\Editor\Resources\Licenses.txt" />
+     <Compile Include="Assets\GitMerge-for-Unity-master\Editor\GameObjectExtensions.cs" />
+     <Compile Include="Assets\GitMerge-for-Unity-master\Editor\GameObjectMergeActions.cs" />
+     <Compile Include="Assets\GitMerge-for-Unity-master\Editor\GitMergeWindow.cs" />
+     <Compile Include="Assets\GitMerge-for-Unity-master\Editor\MergeAction.cs" />
+     <Compile Include="Assets\GitMerge-for-Unity-master\Editor\MergeActionChangeValues.cs" />
+     <Compile Include="Assets\GitMerge-for-Unity-master\Editor\MergeActionDeleteComponent.cs" />
+     <Compile Include="Assets\GitMerge-for-Unity-master\Editor\MergeActionDeleteGameObject.cs" />
+     <Compile Include="Assets\GitMerge-for-Unity-master\Editor\MergeActionExistence.cs" />
+     <Compile Include="Assets\GitMerge-for-Unity-master\Editor\MergeActionNewComponent.cs" />
+     <Compile Include="Assets\GitMerge-for-Unity-master\Editor\MergeActionNewGameObject.cs" />
+     <Compile Include="Assets\GitMerge-for-Unity-master\Editor\MergeActionParenting.cs" />
+     <Compile Include="Assets\GitMerge-for-Unity-master\Editor\MergeManager.cs" />
+     <Compile Include="Assets\GitMerge-for-Unity-master\Editor\MergeManagerPrefab.cs" />
+     <Compile Include="Assets\GitMerge-for-Unity-master\Editor\MergeManagerScene.cs" />
+     <Compile Include="Assets\GitMerge-for-Unity-master\Editor\ObjectDictionaries.cs" />
+     <Compile Include="Assets\GitMerge-for-Unity-master\Editor\ObjectExtensions.cs" />
+     <Compile Include="Assets\GitMerge-for-Unity-master\Editor\ObjectIDFinder.cs" />
+     <Compile Include="Assets\GitMerge-for-Unity-master\Editor\Resources.cs" />
+     <Compile Include="Assets\GitMerge-for-Unity-master\Editor\SerializedPropertyExtensions.cs" />
+     <Compile Include="Assets\GitMerge-for-Unity-master\Editor\VCS.cs" />
+     <Compile Include="Assets\GitMerge-for-Unity-master\Editor\VCSException.cs" />
+     <Compile Include="Assets\GitMerge-for-Unity-master\Editor\VCSGit.cs" />
+     <None Include="Assets\GitMerge-for-Unity-master\Editor\Resources\Licenses.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -111,7 +111,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{98EC99D1-3CDF-9A14-A789-5D33F22555FA}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{A681F937-18EE-684F-2E5F-6128E3636D38}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
