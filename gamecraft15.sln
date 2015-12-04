@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
@@ -43,3 +44,51 @@ Global
 		$3.scope = text/plain
 	EndGlobalSection
 EndGlobal
+=======
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{FBFAC8AB-F7D3-9DD9-8E45-C5FA5FD00EE5}") = "gamecraft15", "Assembly-CSharp.csproj", "{A681F937-18EE-684F-2E5F-6128E3636D38}"
+EndProject
+Project("{FBFAC8AB-F7D3-9DD9-8E45-C5FA5FD00EE5}") = "gamecraft15", "Assembly-CSharp-Editor.csproj", "{DCFDE768-20F3-AF1D-21F5-16BBDADE44D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A681F937-18EE-684F-2E5F-6128E3636D38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A681F937-18EE-684F-2E5F-6128E3636D38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A681F937-18EE-684F-2E5F-6128E3636D38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A681F937-18EE-684F-2E5F-6128E3636D38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCFDE768-20F3-AF1D-21F5-16BBDADE44D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCFDE768-20F3-AF1D-21F5-16BBDADE44D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCFDE768-20F3-AF1D-21F5-16BBDADE44D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCFDE768-20F3-AF1D-21F5-16BBDADE44D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+			GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.inheritsSet = null
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+		$0.TextStylePolicy = $3
+		$3.FileWidth = 120
+		$3.TabWidth = 4
+		$3.IndentWidth = 4
+		$3.EolMarker = Unix
+		$3.inheritsSet = Mono
+		$3.inheritsScope = text/plain
+		$3.scope = text/plain
+	EndGlobalSection
+
+EndGlobal
+>>>>>>> f987d8c9138fd84ab817029b83dd36a5dee6a6d9
